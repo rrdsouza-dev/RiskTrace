@@ -1,0 +1,16 @@
+Para baixar os requirements rode no bash
+´pip install -r requirements.txt´
+
+Para desenvolvimentos
+´pip install -r requirements.txt
+pip install -r requirements-dev.txt´
+
+Para rodar o servidor
+´uvicorn app.main:app --reload´
+
+
+Para se verificar se tudo funciona
+´pytest´
+
+Qualidade
+´ruff check´
